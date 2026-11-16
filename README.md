@@ -1,12 +1,9 @@
 # Streaming and Validation Pipeline for Drug Adverse Event Reports
 
-**Course:** Data Collection & Preparation, SIS 2
-**Data source:** openFDA Drug Adverse Event API (`https://api.fda.gov/drug/event.json`)
-**Team:** Sailaukhan Yenglik · Kassymbay Nazym · Beisenova Dilnaz · Al-Farabiқyzy Asylai
-**Repository:** https://github.com/NazymKassymbay/Data-Collection-and-Preparation (folder `SIS2-openfda-pipeline/`)
-
-All commands below are run from inside the `SIS2-openfda-pipeline/` folder.
-
+- **Course:** Data Collection & Preparation, SIS 2
+- **Data source:** openFDA Drug Adverse Event API (`https://api.fda.gov/drug/event.json`)
+- **Team:** Sailaukhan Yenglik · Kassymbay Nazym · Beisenova Dilnaz · Al-Farabiқyzy Asylai
+- **Repository:** https://github.com/NazymKassymbay/sis2-openfda-pipeline
 ## 1. Project overview
 
 The pipeline collects real FDA Adverse Event Reporting System (FAERS) reports and passes them through these stages:
@@ -47,8 +44,8 @@ openFDA API ──► api_client.py ──► data/raw_data.json + raw_data.csv 
 ## 3. Installation
 
 ```bash
-git clone https://github.com/NazymKassymbay/Data-Collection-and-Preparation.git
-cd Data-Collection-and-Preparation/SIS2-openfda-pipeline
+git clone https://github.com/NazymKassymbay/sis2-openfda-pipeline.git
+cd sis2-openfda-pipeline
 python3 -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
 pip install -r requirements.txt

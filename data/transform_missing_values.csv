@@ -1,0 +1,14 @@
+column,missing_count,missing_percent
+patient_weight_kg,526,87.67
+patient_age,253,42.17
+patient_age_unit,253,42.17
+primary_drug_route,165,27.5
+patient_sex,92,15.33
+occur_country,41,6.83
+primary_drug_indication,34,5.67
+seriousness_death,27,4.5
+seriousness_congenital_anomaly,27,4.5
+seriousness_life_threatening,26,4.33
+seriousness_disabling,26,4.33
+seriousness_other,19,3.17
+seriousness_hospitalization,18,3.0

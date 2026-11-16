@@ -1,0 +1,9 @@
+{
+  "run_id": "20261116T130253Z-11781a",
+  "topic": "drug-adverse-events",
+  "records_read": 600,
+  "messages_attempted": 600,
+  "messages_published": 600,
+  "messages_failed": 0,
+  "serialization_errors": 0
+}

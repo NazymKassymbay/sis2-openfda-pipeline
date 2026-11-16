@@ -1,0 +1,72 @@
+-- total_reports
+SELECT COUNT(*) AS total_reports FROM adverse_events;
+ total_reports
+           600
+
+-- distinct_ids
+SELECT COUNT(DISTINCT safety_report_id) AS distinct_ids FROM adverse_events;
+ distinct_ids
+          600
+
+-- duplicate_ids
+SELECT safety_report_id, COUNT(*) AS n FROM adverse_events GROUP BY safety_report_id HAVING COUNT(*) > 1;
+Empty DataFrame
+Columns: [safety_report_id, n]
+Index: []
+
+-- null_required_fields
+SELECT SUM(receive_date IS NULL) AS null_receive_date, SUM(serious_label IS NULL) AS null_serious, SUM(primary_suspect_drug IS NULL) AS null_drug FROM adverse_events;
+ null_receive_date  null_serious  null_drug
+                 0             0          0
+
+-- orphan_reactions
+SELECT COUNT(*) AS orphan_reactions FROM reactions r LEFT JOIN adverse_events e USING (safety_report_id) WHERE e.safety_report_id IS NULL;
+ orphan_reactions
+                0
+
+-- date_range
+SELECT MIN(receive_date) AS first_received, MAX(receive_date) AS last_received FROM adverse_events;
+first_received last_received
+    2024-01-01    2024-12-25
+
+-- seriousness_split
+SELECT serious_label, COUNT(*) AS reports, ROUND(100.0 * COUNT(*) / (SELECT COUNT(*) FROM adverse_events), 1) AS pct FROM adverse_events GROUP BY serious_label;
+serious_label  reports  pct
+  Non-serious      248 41.3
+      Serious      352 58.7
+
+-- top_suspect_drugs
+SELECT primary_suspect_drug, COUNT(*) AS reports, SUM(is_serious) AS serious FROM adverse_events WHERE primary_suspect_drug <> 'UNKNOWN' GROUP BY primary_suspect_drug ORDER BY reports DESC LIMIT 10;
+primary_suspect_drug  reports  serious
+           DUPILUMAB       62        6
+             SKYRIZI       28       27
+          ADALIMUMAB       21       19
+             REPATHA       15        1
+        UPADACITINIB       15       15
+          VENETOCLAX       15       15
+       ABALOPARATIDE       10        0
+          VANCOMYCIN       10       10
+             ELIQUIS        9        8
+    INSULIN GLARGINE        9        0
+
+-- top_reactions
+SELECT reaction_pt, COUNT(*) AS reports FROM reactions GROUP BY reaction_pt ORDER BY reports DESC LIMIT 10;
+                         reaction_pt  reports
+                       Off label use       34
+                               Death       26
+         Product dose omission issue       23
+                                Pain       22
+Product use in unapproved indication       19
+                           Pneumonia       19
+                 Injection site pain       18
+                            Dyspnoea       18
+                    Drug ineffective       18
+                            Headache       17
+
+-- load_history
+SELECT * FROM load_runs ORDER BY run_no;
+ run_no           executed_at_utc  rows_processed  rows_before  rows_after  rows_inserted  rows_updated  reaction_rows_after
+      1 2026-11-16T13:02:51+00:00             600            0         600            600             0                 1659
+      2 2026-11-16T13:02:51+00:00             600          600         600              0             0                 1659
+      3 2026-11-16T13:02:54+00:00             600          600         600              0             0                 1659
+      4 2026-11-16T13:02:54+00:00             600          600         600              0             0                 1659

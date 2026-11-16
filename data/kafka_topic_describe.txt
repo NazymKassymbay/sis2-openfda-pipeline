@@ -1,0 +1,4 @@
+Topic: drug-adverse-events	TopicId: QgwM3ji_Q4e12ngnvf_Alg	PartitionCount: 3	ReplicationFactor: 1	Configs: 
+	Topic: drug-adverse-events	Partition: 0	Leader: 1	Replicas: 1	Isr: 1	Elr: 	LastKnownElr: 
+	Topic: drug-adverse-events	Partition: 1	Leader: 1	Replicas: 1	Isr: 1	Elr: 	LastKnownElr: 
+	Topic: drug-adverse-events	Partition: 2	Leader: 1	Replicas: 1	Isr: 1	Elr: 	LastKnownElr: 

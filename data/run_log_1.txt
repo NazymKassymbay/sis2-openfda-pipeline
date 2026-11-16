@@ -1,0 +1,228 @@
+
+======================================================================
+STAGE 1 - API DATA COLLECTION (openFDA)
+======================================================================
+[COLLECT] API records collected: 600
+[COLLECT] Raw JSON saved -> data/raw_data.json
+[COLLECT] Raw CSV  saved -> data/raw_data.csv
+
+======================================================================
+STAGE 2 - KAFKA PRODUCER
+======================================================================
+[PRODUCER] Topic 'drug-adverse-events' already exists.
+[PRODUCER] Run id: 20261116T130250Z-42cd43
+[PRODUCER] Records read from raw data : 600
+[PRODUCER] Messages published to Kafka: 600
+[PRODUCER] Delivery failures          : 0
+
+======================================================================
+STAGE 3 - KAFKA CONSUMER
+======================================================================
+[CONSUMER] Subscribed to 'drug-adverse-events', waiting for run 20261116T130250Z-42cd43 ...
+[CONSUMER] Consumed 100 records ...
+[CONSUMER] END marker received (expected 600 records).
+[CONSUMER] Consumed 200 records ...
+[CONSUMER] Consumed 300 records ...
+[CONSUMER] Consumed 400 records ...
+[CONSUMER] Consumed 500 records ...
+[CONSUMER] Consumed 600 records ...
+[CONSUMER] Messages consumed for this run : 600
+[CONSUMER] Older-run messages skipped      : 1202
+[CONSUMER] Deserialization errors          : 0
+[CONSUMER] Stopped because                 : END marker and all records received
+
+======================================================================
+STAGE 4 - PANDERA VALIDATION
+======================================================================
+[VALIDATE] Rows validated (real + test)  : 604
+[VALIDATE] Valid real records            : 600
+[VALIDATE] Invalid real records          : 0
+[VALIDATE] Test records detected invalid : 4/4
+[VALIDATE] Violations by rule:
+              1  <cross-field> | age_above_120_years
+              1  <cross-field> | non_serious_report_has_seriousness_flag
+              1  num_reactions | no_reactions
+              1  patient_age | age_negative
+              1  patient_sex | isin(['0', '1', '2'])
+              1  patient_weight_kg | weight_not_numeric
+              1  patient_weight_kg | weight_out_of_range_0_400kg
+              1  receive_date | date_out_of_range_or_invalid
+              1  safety_report_id | not_nullable
+              1  serious | isin(['1', '2'])
+
+======================================================================
+STAGE 5 - CLEANING AND TRANSFORMATION
+======================================================================
+[CLEAN] Rows in                  : 600
+[CLEAN] Duplicate ids removed    : 0
+[CLEAN] Rows after cleaning      : 600
+[CLEAN] Reaction rows (child tbl): 1659
+[CLEAN] Elderly+serious+5+ drugs : 21
+
+======================================================================
+STAGE 6 - SQLITE LOAD (executed twice for idempotency)
+======================================================================
+[LOAD] Execution #1
+[LOAD] processed=600 before=0 after=600 inserted=600 updated=0 reactions=1659
+[LOAD] Execution #2 (same dataset)
+[LOAD] processed=600 before=600 after=600 inserted=0 updated=0 reactions=1659
+-- total_reports
+SELECT COUNT(*) AS total_reports FROM adverse_events;
+ total_reports
+           600
+
+-- distinct_ids
+SELECT COUNT(DISTINCT safety_report_id) AS distinct_ids FROM adverse_events;
+ distinct_ids
+          600
+
+-- duplicate_ids
+SELECT safety_report_id, COUNT(*) AS n FROM adverse_events GROUP BY safety_report_id HAVING COUNT(*) > 1;
+Empty DataFrame
+Columns: [safety_report_id, n]
+Index: []
+
+-- null_required_fields
+SELECT SUM(receive_date IS NULL) AS null_receive_date, SUM(serious_label IS NULL) AS null_serious, SUM(primary_suspect_drug IS NULL) AS null_drug FROM adverse_events;
+ null_receive_date  null_serious  null_drug
+                 0             0          0
+
+-- orphan_reactions
+SELECT COUNT(*) AS orphan_reactions FROM reactions r LEFT JOIN adverse_events e USING (safety_report_id) WHERE e.safety_report_id IS NULL;
+ orphan_reactions
+                0
+
+-- date_range
+SELECT MIN(receive_date) AS first_received, MAX(receive_date) AS last_received FROM adverse_events;
+first_received last_received
+    2024-01-01    2024-12-25
+
+-- seriousness_split
+SELECT serious_label, COUNT(*) AS reports, ROUND(100.0 * COUNT(*) / (SELECT COUNT(*) FROM adverse_events), 1) AS pct FROM adverse_events GROUP BY serious_label;
+serious_label  reports  pct
+  Non-serious      248 41.3
+      Serious      352 58.7
+
+-- top_suspect_drugs
+SELECT primary_suspect_drug, COUNT(*) AS reports, SUM(is_serious) AS serious FROM adverse_events WHERE primary_suspect_drug <> 'UNKNOWN' GROUP BY primary_suspect_drug ORDER BY reports DESC LIMIT 10;
+primary_suspect_drug  reports  serious
+           DUPILUMAB       62        6
+             SKYRIZI       28       27
+          ADALIMUMAB       21       19
+             REPATHA       15        1
+        UPADACITINIB       15       15
+          VENETOCLAX       15       15
+       ABALOPARATIDE       10        0
+          VANCOMYCIN       10       10
+             ELIQUIS        9        8
+    INSULIN GLARGINE        9        0
+
+-- top_reactions
+SELECT reaction_pt, COUNT(*) AS reports FROM reactions GROUP BY reaction_pt ORDER BY reports DESC LIMIT 10;
+                         reaction_pt  reports
+                       Off label use       34
+                               Death       26
+         Product dose omission issue       23
+                                Pain       22
+Product use in unapproved indication       19
+                           Pneumonia       19
+                 Injection site pain       18
+                            Dyspnoea       18
+                    Drug ineffective       18
+                            Headache       17
+
+-- load_history
+SELECT * FROM load_runs ORDER BY run_no;
+ run_no           executed_at_utc  rows_processed  rows_before  rows_after  rows_inserted  rows_updated  reaction_rows_after
+      1 2026-11-16T13:02:51+00:00             600            0         600            600             0                 1659
+      2 2026-11-16T13:02:51+00:00             600          600         600              0             0                 1659
+
+[LOAD] Processed records: 600 | Stored records: 600
+[LOAD] Idempotency test passed: True (fingerprint d8c99d976bba == d8c99d976bba)
+
+======================================================================
+STAGE 7 - EDA AND VISUALIZATION
+======================================================================
+
+========== EDA: DATASET OVERVIEW ==========
+adverse_events shape: (600, 34) | reactions shape: (1659, 3)
+
+Data types:
+object            14
+int64             14
+datetime64[ns]     3
+float64            3
+
+Descriptive statistics:
+       age_years  patient_weight_kg  num_drugs  num_reactions  seriousness_criteria_count  days_to_latest_info
+count     347.00              74.00     600.00         600.00                      600.00               600.00
+mean       55.84              69.90       2.74           2.80                        0.79                49.48
+std        21.30              27.48       3.87           3.03                        0.79               136.17
+min         0.08               3.41       1.00           1.00                        0.00                 0.00
+25%        43.00              53.64       1.00           1.00                        0.00                 0.00
+50%        60.00              69.50       1.00           2.00                        1.00                 0.00
+75%        73.00              84.75       3.00           3.00                        1.00                 9.00
+max        94.00             208.00      33.00          27.00                        3.00               938.00
+
+serious_label: 2 distinct | top: {'Serious': 352, 'Non-serious': 248}
+
+patient_sex: 3 distinct | top: {'Female': 292, 'Male': 216, 'Unknown': 92}
+
+age_group: 7 distinct | top: {'Unknown': 253, 'Elderly (65+)': 142, 'Middle-aged (45-64)': 110, 'Adult (18-44)': 65, 'Adolescent (12-17)': 15}
+
+reporter_type: 5 distinct | top: {'Consumer': 320, 'Physician': 134, 'Other health professional': 122, 'Pharmacist': 23, 'Lawyer': 1}
+
+report_type: 3 distinct | top: {'Spontaneous': 417, 'Study': 178, 'Other': 5}
+
+occur_country: 32 distinct | top: {'US': 386, 'UNKNOWN': 41, 'CA': 36, 'GB': 19, 'JP': 18}
+
+primary_drug_route: 15 distinct | top: {'ORAL': 199, 'UNKNOWN': 165, 'SUBCUTANEOUS': 136, 'INTRAVENOUS': 65, 'INTRAMUSCULAR': 10}
+
+========== EDA: GROUPED ANALYSIS ==========
+
+By reporter type:
+                           reports  serious_rate  mean_drugs
+reporter_type                                               
+Consumer                       320         0.519       2.506
+Physician                      134         0.649       2.993
+Other health professional      122         0.672       3.008
+Pharmacist                      23         0.696       3.304
+Lawyer                           1         1.000       1.000
+
+Polypharmacy (5+ drugs) vs not:
+                 reports  serious_rate  death_rate
+is_polypharmacy                                   
+0                    515         0.548       0.076
+1                     85         0.824       0.165
+[EDA] Figure saved -> figures/fig1_top_reactions.png
+[EDA] Figure saved -> figures/fig2_serious_rate_by_age_sex.png
+[EDA] Figure saved -> figures/fig3_age_distribution_by_seriousness.png
+[EDA] Figure saved -> figures/fig4_seriousness_criteria.png
+[EDA] Figure saved -> figures/fig5_monthly_serious_share.png
+
+======================================================================
+PIPELINE VERIFICATION REPORT
+======================================================================
+  API records collected                         600
+  Messages published to Kafka                   600
+  Messages consumed from Kafka                  600
+  Valid records (Pandera)                       600
+  Invalid real records (quarantined)            0
+  Deliberately invalid test records detected    4/4
+  Records after cleaning                        600
+  Records stored in SQLite                      600
+
+  Differences explained:
+   - All counts match: no record was lost between stages.
+
+  Consistency checks:
+   [PASS] published_equals_consumed
+   [PASS] consumed_equals_valid_plus_invalid
+   [PASS] all_test_records_rejected
+   [PASS] cleaned_equals_stored
+   [PASS] idempotent_reload
+   [PASS] no_duplicate_ids_in_db
+   [PASS] no_orphan_reactions
+   [PASS] at_least_200_messages
+
+[PIPELINE] Finished in 52.6s. Metrics -> data/pipeline_metrics.json

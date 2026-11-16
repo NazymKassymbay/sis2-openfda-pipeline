@@ -1,0 +1,7 @@
+criterion,Female,Male,Unknown
+congenital_anomaly,1,1,0
+death,18,31,4
+disabling,6,1,2
+hospitalization,63,62,14
+life_threatening,8,9,4
+other,120,100,29

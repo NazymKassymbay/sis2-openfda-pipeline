@@ -1,0 +1,248 @@
+{
+  "reports": 600,
+  "reaction_rows": 1659,
+  "distinct_reactions": 712,
+  "distinct_suspect_drugs": 226,
+  "serious_share_pct": 58.7,
+  "death_share_pct": 8.8,
+  "median_age_years": 60.0,
+  "mean_drugs_per_report": 2.75,
+  "polypharmacy_share_pct": 14.2,
+  "age_missing_pct": 42.2,
+  "weight_missing_pct": 87.7,
+  "categorical": {
+    "serious_label": {
+      "distinct": 2,
+      "top": {
+        "Serious": 352,
+        "Non-serious": 248
+      }
+    },
+    "patient_sex": {
+      "distinct": 3,
+      "top": {
+        "Female": 292,
+        "Male": 216,
+        "Unknown": 92
+      }
+    },
+    "age_group": {
+      "distinct": 7,
+      "top": {
+        "Unknown": 253,
+        "Elderly (65+)": 142,
+        "Middle-aged (45-64)": 110,
+        "Adult (18-44)": 65,
+        "Adolescent (12-17)": 15
+      }
+    },
+    "reporter_type": {
+      "distinct": 5,
+      "top": {
+        "Consumer": 320,
+        "Physician": 134,
+        "Other health professional": 122,
+        "Pharmacist": 23,
+        "Lawyer": 1
+      }
+    },
+    "report_type": {
+      "distinct": 3,
+      "top": {
+        "Spontaneous": 417,
+        "Study": 178,
+        "Other": 5
+      }
+    },
+    "occur_country": {
+      "distinct": 32,
+      "top": {
+        "US": 386,
+        "UNKNOWN": 41,
+        "CA": 36,
+        "GB": 19,
+        "JP": 18
+      }
+    },
+    "primary_drug_route": {
+      "distinct": 15,
+      "top": {
+        "ORAL": 199,
+        "UNKNOWN": 165,
+        "SUBCUTANEOUS": 136,
+        "INTRAVENOUS": 65,
+        "INTRAMUSCULAR": 10
+      }
+    }
+  },
+  "grouped": {
+    "by_reporter_type": [
+      {
+        "reporter_type": "Consumer",
+        "reports": 320,
+        "serious_rate": 0.519,
+        "mean_drugs": 2.506
+      },
+      {
+        "reporter_type": "Physician",
+        "reports": 134,
+        "serious_rate": 0.649,
+        "mean_drugs": 2.993
+      },
+      {
+        "reporter_type": "Other health professional",
+        "reports": 122,
+        "serious_rate": 0.672,
+        "mean_drugs": 3.008
+      },
+      {
+        "reporter_type": "Pharmacist",
+        "reports": 23,
+        "serious_rate": 0.696,
+        "mean_drugs": 3.304
+      },
+      {
+        "reporter_type": "Lawyer",
+        "reports": 1,
+        "serious_rate": 1.0,
+        "mean_drugs": 1.0
+      }
+    ],
+    "by_polypharmacy": [
+      {
+        "is_polypharmacy": 0,
+        "reports": 515,
+        "serious_rate": 0.548,
+        "death_rate": 0.076
+      },
+      {
+        "is_polypharmacy": 1,
+        "reports": 85,
+        "serious_rate": 0.824,
+        "death_rate": 0.165
+      }
+    ]
+  },
+  "top_reactions": {
+    "Off label use": 34,
+    "Death": 26,
+    "Product dose omission issue": 23,
+    "Pain": 22,
+    "Product use in unapproved indication": 19,
+    "Pneumonia": 19,
+    "Dyspnoea": 18,
+    "Injection site pain": 18,
+    "Drug ineffective": 18,
+    "Headache": 17,
+    "Fatigue": 16,
+    "Pruritus": 15,
+    "Product storage error": 14,
+    "Asthenia": 14,
+    "Dizziness": 14
+  },
+  "top_reaction_share_pct": 5.7,
+  "serious_rate_pct_by_age_sex": {
+    "Female": {
+      "Infant (<2)": NaN,
+      "Child (2-11)": 50.0,
+      "Adolescent (12-17)": 66.7,
+      "Adult (18-44)": 40.0,
+      "Middle-aged (45-64)": 64.1,
+      "Elderly (65+)": 59.0
+    },
+    "Male": {
+      "Infant (<2)": 0.0,
+      "Child (2-11)": 50.0,
+      "Adolescent (12-17)": 66.7,
+      "Adult (18-44)": 58.6,
+      "Middle-aged (45-64)": 57.1,
+      "Elderly (65+)": 81.4
+    }
+  },
+  "median_age_by_seriousness": {
+    "Non-serious": 55.0,
+    "Serious": 62.0
+  },
+  "seriousness_criteria_totals": {
+    "Congenital anomaly": 2,
+    "Disabling": 9,
+    "Life threatening": 21,
+    "Death": 53,
+    "Hospitalization": 139,
+    "Other": 249
+  },
+  "monthly": {
+    "2024-01": {
+      "reports": 50,
+      "serious": 76.0,
+      "hospitalization": 20.0,
+      "death": 30.0
+    },
+    "2024-02": {
+      "reports": 50,
+      "serious": 74.0,
+      "hospitalization": 34.0,
+      "death": 12.0
+    },
+    "2024-03": {
+      "reports": 50,
+      "serious": 54.0,
+      "hospitalization": 16.0,
+      "death": 2.0
+    },
+    "2024-04": {
+      "reports": 50,
+      "serious": 62.0,
+      "hospitalization": 30.0,
+      "death": 12.0
+    },
+    "2024-05": {
+      "reports": 50,
+      "serious": 44.0,
+      "hospitalization": 22.0,
+      "death": 4.0
+    },
+    "2024-06": {
+      "reports": 50,
+      "serious": 66.0,
+      "hospitalization": 40.0,
+      "death": 6.0
+    },
+    "2024-07": {
+      "reports": 50,
+      "serious": 58.0,
+      "hospitalization": 30.0,
+      "death": 8.0
+    },
+    "2024-08": {
+      "reports": 50,
+      "serious": 60.0,
+      "hospitalization": 22.0,
+      "death": 2.0
+    },
+    "2024-09": {
+      "reports": 50,
+      "serious": 54.0,
+      "hospitalization": 30.0,
+      "death": 6.0
+    },
+    "2024-10": {
+      "reports": 50,
+      "serious": 60.0,
+      "hospitalization": 16.0,
+      "death": 10.0
+    },
+    "2024-11": {
+      "reports": 50,
+      "serious": 56.0,
+      "hospitalization": 14.0,
+      "death": 10.0
+    },
+    "2024-12": {
+      "reports": 50,
+      "serious": 40.0,
+      "hospitalization": 4.0,
+      "death": 4.0
+    }
+  }
+}

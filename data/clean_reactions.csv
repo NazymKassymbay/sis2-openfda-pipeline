@@ -1,0 +1,1660 @@
+safety_report_id,reaction_pt,reaction_outcome
+23353582,Dry eye,Unknown
+23353583,Wrong technique in product usage process,Unknown
+23353583,Injection site reaction,Unknown
+23353583,Injection site pain,Unknown
+23353584,Drug dose omission by device,Unknown
+23353585,Leukaemia,Fatal
+23353585,Septic shock,Fatal
+23353585,Sepsis,Fatal
+23353585,Respiratory failure,Fatal
+23353585,Acute myeloid leukaemia,Unknown
+23353585,Pneumonia,Fatal
+23353586,Product preparation error,Unknown
+23353587,Spinal compression fracture,Unknown
+23353588,Death,Fatal
+23353589,Myelosuppression,Recovering
+23353589,White blood cell count decreased,Recovering
+23353589,Red blood cell count decreased,Not recovered
+23353589,Haemoglobin decreased,Not recovered
+23353589,Platelet count decreased,Not recovered
+23353590,Death,Fatal
+23353591,Death,Fatal
+23375358,Contusion,Recovering
+23375358,Fall,Unknown
+23375358,Scalp haematoma,Recovering
+23375358,Joint swelling,Unknown
+23375359,Gallbladder enlargement,Unknown
+23375359,Cholelithiasis,Unknown
+23375359,Weight decreased,Unknown
+23375359,Pain,Unknown
+23375359,Haemorrhage,Recovered
+23375359,Eyelid operation,Unknown
+23375360,Rheumatoid arthritis,Unknown
+23375360,Inflammation,Not recovered
+23375361,Fibromyalgia,Unknown
+23375361,Drug ineffective,Unknown
+23375361,Disease progression,Unknown
+23375362,Blood calcium decreased,Recovered
+23375362,Cognitive disorder,Recovered
+23375362,Constipation,Recovered
+23375362,Creatinine renal clearance decreased,Recovered
+23375362,Depressed level of consciousness,Recovered
+23375362,Drug abuse,Recovered
+23375362,Drug interaction,Recovered
+23375362,Dyspnoea,Recovered
+23375362,Fall,Recovered
+23375362,Hypotension,Recovered
+23375362,Balance disorder,Recovered
+23375362,Mobility decreased,Recovered
+23375362,Multiple drug therapy,Recovered
+23375362,Orthostatic hypotension,Recovered
+23375362,Overdose,Recovered
+23375362,Pain,Recovered
+23375362,Sedation,Recovered
+23375362,Sedation complication,Recovered
+23375362,Toxicity to various agents,Recovered
+23375362,Product use in unapproved indication,Recovered
+23375363,Drug abuse,Fatal
+23375363,Toxicity to various agents,Fatal
+23375365,Death,Fatal
+23375366,Encephalitis cytomegalovirus,Fatal
+23375366,Off label use,Fatal
+23375367,Death,Fatal
+23375368,Death,Fatal
+23399050,Solar lentigo,Unknown
+23399050,Hospice care,Unknown
+23399050,Colon cancer,Unknown
+23399051,Drug ineffective,Unknown
+23399052,Death,Fatal
+23399053,Spinal operation,Unknown
+23399054,Sciatica,Not recovered
+23399055,Cataract,Unknown
+23399056,Death,Fatal
+23399057,Haemorrhage intracranial,Fatal
+23399058,Galactorrhoea,Unknown
+23399059,Cerebral haematoma,Fatal
+23419640,Product use complaint,Unknown
+23419640,Accidental overdose,Unknown
+23419641,Illness,Unknown
+23419642,Device use issue,Unknown
+23419642,Wrong technique in device usage process,Unknown
+23419642,Incorrect dose administered by device,Unknown
+23419642,Device leakage,Unknown
+23419643,Covid-19,Unknown
+23419644,Cardiomyopathy,Recovering
+23419645,Interstitial lung disease,Recovered
+23419646,Hypertension,Unknown
+23419647,Dependence,Recovered
+23419648,Overdose,Fatal
+23419649,Dependence,Unknown
+23419649,Drug abuse,Unknown
+23419649,Euphoric mood,Unknown
+23419649,Gastrointestinal disorder,Unknown
+23419649,Liver disorder,Unknown
+23419649,Overdose,Unknown
+23419649,Ill-defined disorder,Unknown
+23440447,Visual impairment,Not recovered
+23440447,Eye haemorrhage,Unknown
+23440447,Influenza,Unknown
+23440447,Covid-19,Not recovered
+23440447,Viral infection,Not recovered
+23440448,Death,Fatal
+23440449,Loose body removal,Recovered
+23440449,Procedural haemorrhage,Not recovered
+23440449,Condition aggravated,Unknown
+23440450,Product administration interrupted,Unknown
+23440450,Blood lactic acid increased,Unknown
+23440450,Covid-19,Recovered
+23440451,Arthritis,Unknown
+23440452,Poliomyelitis,Unknown
+23440453,Abdominal pain upper,Not recovered
+23440453,Blood pressure decreased,Not recovered
+23440453,Cystitis,Not recovered
+23440453,Discomfort,Not recovered
+23440453,Dyspnoea,Not recovered
+23440453,Feeling cold,Not recovered
+23440453,Haemorrhage,Not recovered
+23440453,Infection,Not recovered
+23440453,Intestinal mass,Not recovered
+23440453,Intestinal obstruction,Not recovered
+23440453,Lip swelling,Not recovered
+23440453,Pollakiuria,Not recovered
+23440453,Pulmonary arterial pressure increased,Not recovered
+23440453,Pulmonary thrombosis,Not recovered
+23440453,Respiratory tract oedema,Not recovered
+23440453,Shock,Not recovered
+23440453,Swollen tongue,Not recovered
+23440453,Device issue,Not recovered
+23440453,Product use issue,Not recovered
+23440454,Dermatitis allergic,Unknown
+23440454,Pulmonary sarcoidosis,Recovering
+23440454,Herpes zoster,Unknown
+23440455,Gingival recession,Not recovered
+23440455,Pain in jaw,Unknown
+23440455,Off label use,Unknown
+23440456,Urticaria,Unknown
+23463682,Dysgeusia,Recovered
+23463683,Hepatic failure,Recovering
+23463684,Dry age-related macular degeneration,Not recovered
+23463685,Spinal operation,Unknown
+23463685,Arthritis,Unknown
+23463685,Urticaria,Unknown
+23463686,Upper gastrointestinal haemorrhage,Recovered
+23463687,Depressive symptom,Unknown
+23463687,Inappropriate schedule of product administration,Unknown
+23463687,Incorrect dosage administered,Unknown
+23463688,Osteoarthritis,Not recovered
+23463688,Arthritis,Not recovered
+23463688,Pain in extremity,Unknown
+23463688,Blood urea increased,Unknown
+23463688,Musculoskeletal stiffness,Unknown
+23463688,Protein total decreased,Unknown
+23463688,Dermatitis,Unknown
+23463688,Therapeutic product effect incomplete,Unknown
+23463689,Suspected suicide,Fatal
+23463690,Product dose omission issue,Unknown
+23463691,Clostridium difficile infection,Recovering
+23463691,Influenza like illness,Recovering
+23491063,Pancreatic carcinoma,Not recovered
+23491063,Illness,Unknown
+23491063,Product prescribing error,Unknown
+23491064,Arthritis bacterial,Not recovered
+23491064,Pyrexia,Not recovered
+23491065,Disease progression,Recovering
+23491065,Treatment noncompliance,Unknown
+23491066,Leukaemia,Unknown
+23491066,White blood cell count decreased,Unknown
+23491066,Neutrophil count decreased,Unknown
+23491066,Product administration interrupted,Unknown
+23491067,Cognitive disorder,Unknown
+23491068,Hospice care,Unknown
+23491069,Headache,Unknown
+23491070,Treatment noncompliance,Unknown
+23491070,Galactorrhoea,Unknown
+23491071,Hospitalisation,Unknown
+23491072,Intentional product misuse,Not recovered
+23515089,Aphonia,Unknown
+23515090,Cerebrovascular accident,Unknown
+23515091,Cataract,Unknown
+23515092,Pharyngitis,Unknown
+23515093,Death,Fatal
+23515094,Wrong technique in product usage process,Unknown
+23515094,Device difficult to use,Unknown
+23515095,Product preparation error,Unknown
+23515095,Drug dose omission by device,Unknown
+23515096,Musculoskeletal disorder,Unknown
+23515097,Cough,Unknown
+23515097,Ejection fraction decreased,Unknown
+23515097,Myocardial injury,Unknown
+23515097,Myocarditis,Unknown
+23515097,Off label use,Unknown
+23515097,Troponin increased,Unknown
+23515097,White blood cell count increased,Unknown
+23515098,Death,Fatal
+23515098,Product use issue,Unknown
+23535855,Inappropriate schedule of product administration,Unknown
+23535856,Drug ineffective,Unknown
+23535857,Nasopharyngitis,Recovering
+23535857,Covid-19,Recovering
+23535857,Accidental exposure to product,Unknown
+23535857,Exposure via skin contact,Unknown
+23535858,Rash,Recovering
+23535858,Muscle atrophy,Not recovered
+23535858,Product dose omission issue,Unknown
+23535858,Abdominal distension,Recovering
+23535859,Death,Fatal
+23535860,Anaphylactic reaction,Unknown
+23535861,Fall,Unknown
+23535861,Product use in unapproved indication,Unknown
+23535862,Myalgia,Unknown
+23535862,Intercepted product storage error,Unknown
+23535863,Pain,Not recovered
+23535863,Product dose omission in error,Unknown
+23535864,Coronary arterial stent insertion,Unknown
+23561457,Retinal detachment,Unknown
+23561457,Herpes zoster,Unknown
+23561458,Gastrointestinal haemorrhage,Unknown
+23561458,Abdominal discomfort,Unknown
+23561458,Hospitalisation,Unknown
+23561458,Diarrhoea,Unknown
+23561458,Headache,Unknown
+23561458,Hypotension,Unknown
+23561458,Pain in jaw,Unknown
+23561458,Pain in extremity,Unknown
+23561458,Cardiac failure chronic,Unknown
+23561458,Pulmonary hypertension,Unknown
+23561458,Product preparation error,Unknown
+23561459,Accidental exposure to product,Unknown
+23561460,Fournier^s gangrene,Recovering
+23561461,Deafness unilateral,Not recovered
+23561461,Bladder catheterisation,Unknown
+23561461,Rib fracture,Unknown
+23561461,Rheumatic disorder,Recovered
+23561461,Hepatic pain,Recovered
+23561461,Exostosis,Unknown
+23561461,Hyperhidrosis,Not recovered
+23561461,Diverticulum intestinal,Unknown
+23561462,Peripheral ischaemia,Recovering
+23561462,Off label use,Unknown
+23561463,Interstitial lung disease,Fatal
+23561464,Immunodeficiency common variable,Unknown
+23561464,Malnutrition,Unknown
+23561464,Electrolyte imbalance,Unknown
+23561464,Meningococcal bacteraemia,Unknown
+23561464,Clostridium difficile colitis,Unknown
+23561464,Peritonitis bacterial,Unknown
+23561464,Cytopenia,Recovered
+23561464,Norovirus infection,Unknown
+23561464,Liver disorder,Unknown
+23561464,Off label use,Unknown
+23561464,Drug ineffective for unapproved indication,Unknown
+23561465,Oedema peripheral,Recovered
+23561465,Arthralgia,Recovered
+23561465,Pain in extremity,Recovered
+23561465,Rash,Recovered
+23561466,Death,Fatal
+23561466,Pulmonary mass,Unknown
+23561466,Bone pain,Unknown
+23582745,Pneumonia,Unknown
+23582746,Neuropathy peripheral,Recovering
+23582746,Pain,Recovering
+23582746,Mental impairment,Recovering
+23582746,Asthenia,Recovering
+23582747,Pain,Not recovered
+23582748,Accidental exposure to product,Unknown
+23582749,Panic attack,Not recovered
+23582749,Anxiety,Not recovered
+23582749,Medication error,Unknown
+23582750,Insomnia,Recovered
+23582751,Acute myeloid leukaemia,Not recovered
+23582752,Adverse drug reaction,Unknown
+23582752,Alopecia,Unknown
+23582753,Pneumonia,Unknown
+23582754,Immunosuppression,Fatal
+23603159,Dyshidrotic eczema,Recovered
+23603161,Drug ineffective,Unknown
+23603161,No adverse event,Unknown
+23603162,Ankylosing spondylitis,Unknown
+23603162,Pain,Unknown
+23603162,Gait inability,Unknown
+23603162,General physical health deterioration,Unknown
+23603162,Nervousness,Unknown
+23603162,Feeling abnormal,Unknown
+23603162,Anxiety,Unknown
+23603162,Skin papilloma,Unknown
+23603162,Muscle tightness,Unknown
+23603162,Drug ineffective,Unknown
+23603163,Arthralgia,Unknown
+23603164,Heart rate irregular,Recovered
+23603164,Weight decreased,Recovered
+23603165,Toxicity to various agents,Unknown
+23603166,Anxiety,Not recovered
+23603166,Panic attack,Not recovered
+23603166,Medication error,Unknown
+23603167,Product storage error,Unknown
+23603167,Circumstance or information capable of leading to medication error,Unknown
+23603168,Accidental overdose,Unknown
+23603168,Accidental exposure to product by child,Unknown
+23603168,No adverse event,Unknown
+23603169,Hypokalaemia,Recovering
+23603169,Electrolyte imbalance,Recovering
+23624458,Device deployment issue,Unknown
+23624458,Product dose omission issue,Unknown
+23624458,Accidental exposure to product,Unknown
+23624459,Product dose omission issue,Unknown
+23624459,Illness,Unknown
+23624460,Bronchitis,Recovering
+23624461,Liver transplant,Not recovered
+23624461,Adverse drug reaction,Unknown
+23624462,Mumps,Unknown
+23624463,Pneumonia,Recovering
+23624463,Pyrexia,Recovering
+23624464,Off label use,Unknown
+23624465,Intervertebral disc operation,Unknown
+23624465,Sedation,Unknown
+23624465,Insomnia,Unknown
+23624466,Femur fracture,Recovered
+23624466,Decreased appetite,Unknown
+23624467,Nausea,Unknown
+23624467,Dizziness,Unknown
+23645450,Off label use,Unknown
+23645451,Chills,Recovered
+23645451,Headache,Recovered
+23645452,Euglycaemic diabetic ketoacidosis,Not recovered
+23645452,Nodal rhythm,Not recovered
+23645452,Acute kidney injury,Not recovered
+23645452,Hyperkalaemia,Not recovered
+23645453,Condition aggravated,Recovering
+23645453,Therapeutic response shortened,Unknown
+23645453,Off label use,Unknown
+23645454,Drug hypersensitivity,Unknown
+23645454,Anaphylactic reaction,Unknown
+23645455,Bronchostenosis,Recovered
+23645455,Angioedema,Recovered
+23645455,Urticaria,Recovered
+23645456,Myocardial ischaemia,Unknown
+23645456,Procedural hypotension,Recovered
+23645456,Electrocardiogram st segment depression,Unknown
+23645456,Left ventricular dysfunction,Unknown
+23645457,Blood glucose increased,Recovering
+23645457,Weight increased,Unknown
+23645457,Accidental underdose,Unknown
+23645458,Myocardial infarction,Unknown
+23645459,Renal failure,Unknown
+23645459,Nephrolithiasis,Unknown
+23645459,Asthenia,Unknown
+23645459,Movement disorder,Unknown
+23666634,Device issue,Unknown
+23666634,Accidental exposure to product,Unknown
+23666634,Intercepted product preparation error,Unknown
+23666635,Inguinal hernia,Unknown
+23666635,Abdominal pain upper,Not recovered
+23666636,Pneumonia,Unknown
+23666636,Product temperature excursion issue,Unknown
+23666636,Product dose omission issue,Unknown
+23666637,Post lumbar puncture syndrome,Unknown
+23666638,Syncope,Recovered
+23666638,Blood pressure decreased,Recovered
+23666638,Asthenia,Recovered
+23666638,Nervousness,Recovered
+23666639,Wrong technique in product usage process,Unknown
+23666640,Wrong technique in device usage process,Unknown
+23666641,Off label use,Unknown
+23666642,Product use in unapproved indication,Unknown
+23666643,Eosinophilic pneumonia acute,Recovered
+23689872,Myelosuppression,Unknown
+23689873,Fistula,Recovered with sequelae
+23689873,Vesical fistula,Recovering
+23689873,Pelvic pain,Recovering
+23689873,Pain,Unknown
+23689873,Prostatic specific antigen decreased,Unknown
+23689873,Urostomy,Unknown
+23689875,Clostridium difficile infection,Fatal
+23689876,Weight decreased,Unknown
+23689877,Eosinophilia,Recovering
+23689877,Interstitial lung disease,Recovering
+23689878,Toxicity to various agents,Unknown
+23689878,Intentional overdose,Unknown
+23689878,Suicide attempt,Unknown
+23689878,Ventricular tachycardia,Recovered
+23689878,Haemodynamic instability,Recovered
+23689878,Hyperlactacidaemia,Recovered
+23689878,Hypotension,Recovered
+23689879,Glomerular filtration rate decreased,Unknown
+23689879,Dialysis,Unknown
+23689880,Malaise,Unknown
+23689881,Malaise,Unknown
+23689881,Muscle spasms,Unknown
+23689882,Device difficult to use,Unknown
+23689882,Drug dose omission by device,Unknown
+23715122,Pulmonary congestion,Unknown
+23715122,Dyspnoea,Unknown
+23715123,Myelosuppression,Recovering
+23715123,Off label use,Unknown
+23715124,Hospitalisation,Unknown
+23715124,Conjunctivitis,Unknown
+23715125,Glycosylated haemoglobin increased,Unknown
+23715126,Immunodeficiency,Unknown
+23715126,Hospitalisation,Unknown
+23715126,Chronic obstructive pulmonary disease,Unknown
+23715126,Cough,Unknown
+23715126,Illness,Unknown
+23715126,Haemoglobin decreased,Unknown
+23715126,Therapeutic response decreased,Unknown
+23715126,Inappropriate schedule of product administration,Unknown
+23715127,Pneumonia,Unknown
+23715128,Drug dose omission by device,Unknown
+23715128,Accidental exposure to product,Unknown
+23715128,Wrong technique in product usage process,Unknown
+23715129,Accidental exposure to product,Unknown
+23715129,Exposure via skin contact,Unknown
+23715130,Product dose omission issue,Unknown
+23715131,Exposure via skin contact,Unknown
+23715131,Product complaint,Unknown
+23738709,Dyspnoea,Unknown
+23738709,Drug dose omission by device,Unknown
+23738709,Device malfunction,Unknown
+23738709,Device delivery system issue,Unknown
+23738710,Death,Fatal
+23738711,Death,Fatal
+23738712,Surgery,Unknown
+23738712,Product use in unapproved indication,Unknown
+23738713,Cerebrovascular accident,Fatal
+23738713,Immobile,Unknown
+23738713,Incontinence,Unknown
+23738714,Fall,Unknown
+23738714,Paraplegia,Not recovered
+23738714,Gait inability,Unknown
+23738715,Palpitations,Unknown
+23738716,Multiple organ dysfunction syndrome,Recovering
+23738716,Thyrotoxic crisis,Recovering
+23738716,Incorrect dose administered,Recovered
+23738716,Seizure,Recovering
+23738716,Hyperthyroidism,Recovering
+23738716,Accidental overdose,Recovered
+23738717,Anti-neutrophil cytoplasmic antibody positive vasculitis,Fatal
+23738717,Multiple organ dysfunction syndrome,Fatal
+23738717,Hypoaesthesia,Recovered
+23738717,Condition aggravated,Recovered
+23738717,Graves^ disease,Recovered
+23738718,Angioedema,Recovering
+23738718,Oropharyngeal swelling,Recovering
+23738718,Throat irritation,Recovering
+23738718,Dyspnoea,Recovering
+23738718,Hypersensitivity,Recovering
+23759632,Condition aggravated,Not recovered
+23759632,Axial spondyloarthritis,Not recovered
+23759633,Product use in unapproved indication,Unknown
+23759634,Gastrointestinal disorder,Not recovered
+23759634,Post procedural complication,Not recovered
+23759634,Infection,Not recovered
+23759635,Therapy non-responder,Unknown
+23759635,Adverse reaction,Unknown
+23759636,Pain,Fatal
+23759636,Platelet count decreased,Not recovered
+23759636,Abdominal discomfort,Not recovered
+23759636,Intestinal infarction,Fatal
+23759636,Cardiovascular disorder,Fatal
+23759636,Intestinal ischaemia,Fatal
+23759636,Haemoglobin decreased,Not recovered
+23759636,Red blood cell count decreased,Not recovered
+23759636,Acute myeloid leukaemia,Fatal
+23759637,Pulmonary alveolar haemorrhage,Unknown
+23759637,Malaise,Unknown
+23759638,Loss of consciousness,Recovered
+23759639,Pneumonia,Unknown
+23759639,Swelling,Unknown
+23759639,Off label use,Unknown
+23759640,Tubulointerstitial nephritis,Not recovered
+23759640,Acute kidney injury,Not recovered
+23759642,Disseminated cryptococcosis,Recovering
+23780436,Injection site pain,Unknown
+23780436,Product use in unapproved indication,Unknown
+23780437,Headache,Unknown
+23780438,Influenza,Unknown
+23780439,Drug ineffective,Unknown
+23780441,General physical health deterioration,Unknown
+23780442,Choking,Recovered
+23780442,Oropharyngeal pain,Recovered
+23780443,Nasal polyps,Unknown
+23780443,Symptom recurrence,Unknown
+23780444,Product dose omission issue,Unknown
+23780445,Basal cell carcinoma,Recovered
+23780446,Hypersensitivity,Not recovered
+23780446,Eye inflammation,Not recovered
+23780446,Ocular hyperaemia,Not recovered
+23780446,Eye pruritus,Not recovered
+23780446,Eyelid margin crusting,Not recovered
+23780446,Drug ineffective,Not recovered
+23780446,Eye irritation,Not recovered
+23801641,Gastrointestinal disorder,Unknown
+23801642,Plasma cell myeloma recurrent,Unknown
+23801643,Ankylosing spondylitis,Unknown
+23801644,Product use in unapproved indication,Unknown
+23801644,Drug effective for unapproved indication,Unknown
+23801646,Malaise,Unknown
+23801646,Hypertension,Unknown
+23801646,Fatigue,Recovering
+23801646,Headache,Unknown
+23801646,Dizziness,Unknown
+23801646,Gait disturbance,Unknown
+23801646,Urinary tract infection,Unknown
+23801646,Transient ischaemic attack,Unknown
+23801646,Asthenia,Not recovered
+23801646,Blood glucose increased,Unknown
+23801647,Urinary tract obstruction,Unknown
+23801647,Urinary tract infection,Unknown
+23801648,Injection site discomfort,Recovered
+23801648,Injection site pain,Recovered
+23801649,Diplopia,Unknown
+23801650,Drug eruption,Recovering
+23801651,Pain,Recovered
+23801651,Lethargy,Recovered
+23801651,Muscular weakness,Unknown
+23823023,Fulminant type 1 diabetes mellitus,Unknown
+23823023,Immune-mediated hypophysitis,Unknown
+23823024,Drug effective for unapproved indication,Unknown
+23823024,Product use in unapproved indication,Unknown
+23823025,Hospitalisation,Not recovered
+23823026,Neuropathy peripheral,Not recovered
+23823026,Genital infection fungal,Not recovered
+23823026,Hepatic enzyme increased,Recovered
+23823026,Motor dysfunction,Not recovered
+23823026,Grip strength decreased,Not recovered
+23823026,Muscular weakness,Not recovered
+23823027,Fatigue,Unknown
+23823028,Drug ineffective,Unknown
+23823029,Skin cancer,Unknown
+23823031,Dyspepsia,Unknown
+23823031,Pain,Unknown
+23823031,Abdominal pain upper,Not recovered
+23823031,Headache,Unknown
+23823031,Nausea,Unknown
+23823031,Diarrhoea,Unknown
+23823031,Biliary colic,Unknown
+23823032,Diarrhoea,Not recovered
+23823032,Pain,Unknown
+23823032,Therapy non-responder,Unknown
+23823033,Throat irritation,Unknown
+23823033,Nasal congestion,Unknown
+23823033,Feeling abnormal,Unknown
+23823033,Irritability,Unknown
+23823033,Cough,Unknown
+23823033,Hypertension,Unknown
+23823033,Dry throat,Unknown
+23823033,Dyspnoea,Unknown
+23846377,Therapy non-responder,Unknown
+23846378,Dyspnoea,Recovered
+23846378,Vitreous floaters,Recovered
+23846378,Headache,Recovered
+23846379,Dyspnoea,Not recovered
+23846379,Dizziness,Unknown
+23846379,Pleural effusion,Not recovered
+23846379,Asthma,Unknown
+23846379,Cough,Unknown
+23846380,Spinal operation,Recovered
+23846380,Therapeutic response unexpected,Not recovered
+23846381,Blood potassium increased,Unknown
+23846381,Vomiting,Unknown
+23846381,Nasopharyngitis,Unknown
+23846381,Peripheral swelling,Unknown
+23846382,Dementia,Recovered
+23846383,Hospitalisation,Unknown
+23846384,Plasma cell myeloma,Fatal
+23846385,Hepatitis,Unknown
+23846385,Neoplasm recurrence,Recovered
+23846385,Drug ineffective,Unknown
+23846386,Atypical femur fracture,Recovering
+23871185,Arthralgia,Not recovered
+23871185,Oral discomfort,Unknown
+23871185,Headache,Unknown
+23871186,Injection site pain,Unknown
+23871186,Injection site swelling,Unknown
+23871187,Drug ineffective,Unknown
+23871188,Conjunctivitis,Unknown
+23871189,Product dose omission issue,Unknown
+23871190,Wrong technique in product usage process,Unknown
+23871190,Product complaint,Unknown
+23871191,Eczema,Unknown
+23871191,Dermatitis atopic,Recovered
+23871191,Rash erythematous,Recovered
+23871191,Rash,Recovered
+23871191,Swelling face,Recovered
+23871191,Periorbital swelling,Recovered
+23871191,Intentional dose omission,Unknown
+23871192,Abdominal discomfort,Recovered
+23871192,Aneurysm,Recovered
+23871192,Aneurysm ruptured,Recovered
+23871192,Brain injury,Recovered
+23871192,Colitis ischaemic,Recovered
+23871192,Crying,Recovered
+23871192,Dysphagia,Recovered
+23871192,Gastrointestinal procedural complication,Recovered
+23871192,Gastrooesophageal reflux disease,Recovered
+23871192,Multiple sclerosis,Recovered
+23871192,Pharyngeal mass,Recovered
+23871192,Procedural complication,Recovered
+23871192,Productive cough,Recovered
+23871192,Weight increased,Recovered
+23871192,Anxiety,Recovered
+23871193,Product dose omission issue,Unknown
+23871194,Electrocardiogram pr prolongation,Unknown
+23898420,Diabetic ketoacidosis,Unknown
+23898421,Device mechanical issue,Unknown
+23898422,Device mechanical issue,Unknown
+23898423,Device mechanical issue,Unknown
+23898423,Device defective,Unknown
+23898424,Device defective,Unknown
+23898425,Device delivery system issue,Unknown
+23898426,Device mechanical issue,Unknown
+23898427,Device delivery system issue,Unknown
+23898428,Device mechanical issue,Unknown
+23898429,Blood glucose increased,Unknown
+23898429,Device mechanical issue,Unknown
+23898429,Device issue,Unknown
+23898429,Device leakage,Unknown
+23928938,Nasopharyngitis,Unknown
+23928939,Decreased appetite,Unknown
+23928939,Fatigue,Unknown
+23928939,Nausea,Unknown
+23928939,Intentional product misuse,Unknown
+23928939,Dizziness,Unknown
+23928939,Headache,Unknown
+23928940,Heart rate increased,Unknown
+23928940,Myalgia,Unknown
+23928940,Pain,Unknown
+23928940,Palpitations,Not recovered
+23928940,Abdominal pain,Not recovered
+23928941,Arthralgia,Unknown
+23928941,Pain in extremity,Unknown
+23928941,Peripheral swelling,Unknown
+23928941,Product dose omission issue,Unknown
+23928941,Dizziness,Unknown
+23928941,Fatigue,Unknown
+23928942,Headache,Unknown
+23928942,Diarrhoea,Unknown
+23928942,Flushing,Unknown
+23928943,Arthralgia,Not recovered
+23928943,Weight increased,Not recovered
+23928943,Palpitations,Recovered
+23928943,Pain,Unknown
+23928943,Bone pain,Not recovered
+23928943,Asthenia,Unknown
+23928943,Mobility decreased,Unknown
+23928944,Nausea,Unknown
+23928944,Vomiting,Unknown
+23928944,Product dose omission in error,Unknown
+23928944,Lip swelling,Unknown
+23928944,Swelling face,Unknown
+23928944,Product administered to patient of inappropriate age,Not recovered
+23928944,Dizziness,Unknown
+23928945,Heart rate abnormal,Unknown
+23928945,Abdominal pain upper,Unknown
+23928945,Heart rate increased,Unknown
+23928946,Bone pain,Unknown
+23928946,Weight increased,Unknown
+23928946,Waist circumference increased,Unknown
+23928947,Fall,Not recovered
+23947967,Hospitalisation,Unknown
+23947968,Rheumatoid arthritis,Not recovered
+23947968,Haemorrhoids,Not recovered
+23947968,Device malfunction,Not recovered
+23947968,Taste disorder,Not recovered
+23947968,Dizziness postural,Not recovered
+23947968,Myalgia,Not recovered
+23947968,Constipation,Not recovered
+23947968,Bowel movement irregularity,Not recovered
+23947968,Insomnia,Not recovered
+23947968,Chest pain,Not recovered
+23947968,Headache,Not recovered
+23947968,Pruritus,Not recovered
+23947968,Asthenia,Not recovered
+23947968,Haematochezia,Not recovered
+23947968,Fatigue,Not recovered
+23947968,Drug dose omission by device,Not recovered
+23947969,Haemorrhage,Not recovered
+23947969,Anaemia,Unknown
+23947969,Cardiac operation,Unknown
+23947969,Rheumatoid arthritis,Recovering
+23947969,Peripheral swelling,Unknown
+23947969,Gait disturbance,Not recovered
+23947970,Aspiration,Fatal
+23947971,Loss of consciousness,Unknown
+23947971,Pneumonia viral,Recovering
+23947971,Rehabilitation therapy,Recovered
+23947971,Swelling,Recovering
+23947972,Pneumonia,Unknown
+23947972,Illness,Fatal
+23947972,Off label use,Unknown
+23947973,Urinary tract infection,Recovered
+23947973,Neurogenic bladder,Unknown
+23947974,Hypoaesthesia,Recovered
+23947975,Fatigue,Unknown
+23947976,Neutropenia,Unknown
+23969534,Abortion spontaneous,Unknown
+23969534,Maternal exposure during pregnancy,Unknown
+23969535,Pneumonia,Unknown
+23969536,Crohn^s disease,Unknown
+23969537,Hospitalisation,Unknown
+23969537,Death,Fatal
+23969538,Cataract,Unknown
+23969539,Rheumatoid arthritis,Unknown
+23969540,Balance disorder,Unknown
+23969540,Decreased appetite,Unknown
+23969541,Pain in extremity,Unknown
+23969541,Product storage error,Unknown
+23969541,Intercepted product administration error,Unknown
+23969542,Myelosuppression,Unknown
+23969544,Lumbar vertebral fracture,Recovering
+23969544,Accident,Recovering
+23969544,Back pain,Recovering
+23969544,Fall,Recovered
+23987635,Gait inability,Not recovered
+23987635,Peripheral swelling,Not recovered
+23987636,Asthenia,Unknown
+23987636,Lethargy,Unknown
+23987636,Blood electrolytes decreased,Unknown
+23987636,Central nervous system lesion,Unknown
+23987637,Hernia,Unknown
+23987637,Asthenia,Unknown
+23987637,Fatigue,Unknown
+23987638,Blister,Not recovered
+23987638,Cellulitis,Recovering
+23987638,Peripheral swelling,Not recovered
+23987638,Bedridden,Unknown
+23987638,Erythema,Not recovered
+23987638,Renal disorder,Unknown
+23987638,Atypical pneumonia,Recovered
+23987638,Nasopharyngitis,Recovered
+23987639,Pancreatic operation,Unknown
+23987640,Neoplasm malignant,Unknown
+23987641,Appendicitis,Unknown
+23987642,Nephrolithiasis,Recovering
+23987643,Muscular weakness,Unknown
+23987643,Grip strength decreased,Unknown
+23987644,Arthralgia,Unknown
+23987644,Joint swelling,Unknown
+23987644,Condition aggravated,Unknown
+24007362,Drug-induced liver injury,Recovered
+24007363,Drug-induced liver injury,Recovered
+24007364,Drug-induced liver injury,Recovered
+24007365,Drug-induced liver injury,Recovered
+24007366,Drug-induced liver injury,Recovered
+24007367,Drug-induced liver injury,Recovered
+24007368,Drug-induced liver injury,Unknown
+24007369,Drug-induced liver injury,Unknown
+24007370,Drug-induced liver injury,Recovered
+24007371,Drug-induced liver injury,Unknown
+24032351,Product storage error,Unknown
+24032351,Circumstance or information capable of leading to medication error,Unknown
+24032352,Nocardiosis,Recovering
+24032352,Organising pneumonia,Recovering
+24032352,Enterobacter infection,Recovering
+24032353,Cholecystectomy,Unknown
+24032353,Product dose omission issue,Unknown
+24032354,Osteonecrosis,Not recovered
+24032354,Pain,Unknown
+24032354,Treatment noncompliance,Unknown
+24032354,Product dose omission issue,Unknown
+24032355,Pneumocystis jirovecii pneumonia,Recovering
+24032355,Pneumocystis jirovecii infection,Recovering
+24032355,Histoplasmosis disseminated,Recovering
+24032355,Rhinovirus infection,Recovering
+24032355,Enterobacter infection,Recovering
+24032355,Haemophilus infection,Recovering
+24032355,Staphylococcal infection,Recovering
+24032356,Pneumonia,Unknown
+24032356,Sickle cell anaemia with crisis,Unknown
+24032357,Anti-neutrophil cytoplasmic antibody positive vasculitis,Recovering
+24032357,Pulmonary alveolar haemorrhage,Recovering
+24032357,Respiratory failure,Recovering
+24032357,Acute kidney injury,Recovering
+24032357,Anaemia,Recovering
+24032358,Metabolic acidosis,Fatal
+24032358,Hyperglycaemia,Fatal
+24032358,Autoimmune disorder,Fatal
+24032358,Coagulopathy,Fatal
+24032358,Acute kidney injury,Fatal
+24032358,Renal failure,Fatal
+24032358,Pancreatic failure,Fatal
+24032358,Hepatic failure,Fatal
+24032358,Haemodynamic instability,Fatal
+24032358,Shock,Fatal
+24032358,Toxicity to various agents,Fatal
+24032359,Lymphoproliferative disorder,Unknown
+24032359,Pneumonia,Unknown
+24032359,Lung neoplasm malignant,Unknown
+24032359,Prostate cancer,Unknown
+24032359,Atypical mycobacterial infection,Unknown
+24032359,Gastric cancer,Unknown
+24032359,Acute myocardial infarction,Unknown
+24032359,Pyrexia,Unknown
+24032359,Drug ineffective,Unknown
+24032360,Neutropenia,Recovered
+24032360,Erectile dysfunction,Unknown
+24032360,Anaemia,Recovered
+24032360,Dysuria,Unknown
+24032360,Paraesthesia,Unknown
+24032360,Pruritus,Recovering
+24032360,Nausea,Recovered
+24032360,Tinnitus,Unknown
+24032360,Cough,Recovering
+24032360,Blepharitis,Recovered
+24032360,Diarrhoea,Recovering
+24032360,Influenza,Recovering
+24032360,Anal haemorrhage,Recovered
+24032360,Conjunctivitis,Recovered
+24032360,Off label use,Unknown
+24032360,Product use issue,Unknown
+24057752,Pain in extremity,Unknown
+24057752,Influenza like illness,Unknown
+24057752,Dyspnoea,Unknown
+24057752,Lymphadenopathy,Unknown
+24057752,Pruritus,Unknown
+24057752,Feeling cold,Unknown
+24057752,Hot flush,Unknown
+24057752,Taste disorder,Unknown
+24057752,Hypoaesthesia,Unknown
+24057752,Constipation,Unknown
+24057752,Arthralgia,Unknown
+24057752,Nausea,Unknown
+24057752,Asthenia,Unknown
+24057753,Product storage error,Unknown
+24057753,Circumstance or information capable of leading to medication error,Unknown
+24057754,Internal haemorrhage,Recovered
+24057754,Abdominal neoplasm,Recovered
+24057754,Hepatectomy,Recovered
+24057754,Colectomy,Recovered
+24057754,Hypoaesthesia,Not recovered
+24057754,Metastases to central nervous system,Not recovered
+24057754,Decreased immune responsiveness,Recovered
+24057754,Metastases to bone,Not recovered
+24057754,Food intolerance,Recovered
+24057754,Thrombocytopenia,Recovered
+24057754,Pain,Not recovered
+24057754,Diarrhoea,Recovered
+24057754,Eye swelling,Not recovered
+24057754,Acne,Not recovered
+24057754,Rash,Not recovered
+24057754,Pruritus,Not recovered
+24057754,Off label use,Not recovered
+24057755,Injection site haemorrhage,Unknown
+24057755,Device use issue,Unknown
+24057755,Device leakage,Unknown
+24057756,Product storage error,Unknown
+24057756,Circumstance or information capable of leading to medication error,Unknown
+24057757,Product use in unapproved indication,Unknown
+24057758,Product storage error,Unknown
+24057758,Circumstance or information capable of leading to medication error,Unknown
+24057759,Asthenia,Unknown
+24057759,Drug dose omission by device,Unknown
+24057759,Incorrect dose administered by device,Unknown
+24057759,Device malfunction,Unknown
+24057760,Atrial fibrillation,Unknown
+24057760,Cardiac failure,Unknown
+24057760,Off label use,Unknown
+24057761,Administration site pain,Unknown
+24057761,Pain in extremity,Unknown
+24057761,Blood glucose increased,Unknown
+24057761,Fat tissue increased,Unknown
+24086508,Colitis ulcerative,Unknown
+24086508,Device issue,Unknown
+24086509,Dyspnoea,Unknown
+24086511,Ketoacidosis,Fatal
+24086512,Myalgia,Not recovered
+24086512,Arthralgia,Recovered with sequelae
+24086512,Chest discomfort,Not recovered
+24086514,Urticaria,Unknown
+24086514,Rash,Unknown
+24086515,Drug hypersensitivity,Recovering
+24086515,Abdominal pain,Unknown
+24086516,Drug dose omission by device,Unknown
+24086516,Device difficult to use,Unknown
+24086517,Platelet count increased,Unknown
+24086517,Infarction,Unknown
+24086517,Pain in extremity,Unknown
+24086517,Thrombosis,Unknown
+24086517,Platelet count decreased,Unknown
+24086517,Limb discomfort,Unknown
+24086518,Congenital nystagmus,Not recovered
+24086518,Foetal exposure during pregnancy,Unknown
+24086518,Congenital eye disorder,Not recovered
+24086519,Bile duct stenosis,Fatal
+24086519,Rectal cancer,Fatal
+24086519,General physical health deterioration,Unknown
+24086519,Hypoxia,Unknown
+24112007,Incoherent,Unknown
+24112007,Heart rate decreased,Not recovered
+24112007,Heart rate abnormal,Not recovered
+24112007,Pulse abnormal,Unknown
+24112007,Blood pressure abnormal,Unknown
+24112007,Chronic obstructive pulmonary disease,Unknown
+24112007,Dizziness,Not recovered
+24112007,Fall,Not recovered
+24112007,Injury,Not recovered
+24112007,Heart rate irregular,Not recovered
+24112007,Extrasystoles,Not recovered
+24112007,Respiratory disorder,Recovered with sequelae
+24112007,Pneumonia,Recovering
+24112007,Musculoskeletal chest pain,Recovering
+24112007,Rib fracture,Recovering
+24112007,Blood pressure increased,Recovering
+24112007,Staphylococcal infection,Recovering
+24112007,Skin infection,Recovering
+24112007,Drug interaction,Unknown
+24112007,Peripheral swelling,Recovered
+24112007,Extra dose administered,Not recovered
+24112007,Inappropriate schedule of product administration,Not recovered
+24112007,Product prescribing error,Unknown
+24112007,Oxygen saturation abnormal,Unknown
+24112007,Urinary incontinence,Unknown
+24112007,Back pain,Unknown
+24112007,Oxygen saturation decreased,Unknown
+24112008,Blindness,Unknown
+24112008,Ear discomfort,Unknown
+24112009,Injection site bruising,Unknown
+24112009,Incorrect dose administered by device,Unknown
+24112009,Drug dose omission by device,Unknown
+24112009,Device issue,Unknown
+24112009,Device leakage,Unknown
+24112010,Pain,Unknown
+24112010,Loss of personal independence in daily activities,Unknown
+24112010,Gait disturbance,Unknown
+24112010,Product use in unapproved indication,Unknown
+24112011,Cholecystectomy,Unknown
+24112011,Cataract,Not recovered
+24112011,Jaundice,Recovering
+24112011,Pruritus,Unknown
+24112012,Product storage error,Unknown
+24112013,Glaucoma drainage device placement,Unknown
+24112013,Product use issue,Unknown
+24112014,Loss of consciousness,Unknown
+24112014,Unresponsive to stimuli,Unknown
+24112014,Suicide attempt,Unknown
+24112014,Intentional overdose,Unknown
+24112015,Pulmonary embolism,Recovering
+24112016,Ocular hyperaemia,Unknown
+24112016,Eye discharge,Unknown
+24112016,Conjunctivitis,Unknown
+24112016,Visual acuity reduced,Unknown
+24134260,Diplopia,Unknown
+24134261,Injection site pain,Unknown
+24134262,Microcytic anaemia,Recovering
+24134262,Gastrointestinal haemorrhage,Recovering
+24134263,Cardiac discomfort,Unknown
+24134263,Malaise,Unknown
+24134263,Illness,Unknown
+24134264,Loss of consciousness,Recovered
+24134265,Brain hypoxia,Fatal
+24134266,Off label use,Unknown
+24134267,Cardiac disorder,Unknown
+24134268,Foot operation,Recovering
+24134269,Cardiac disorder,Unknown
+24159940,Wound,Recovering
+24159941,Nausea,Not recovered
+24159942,Dry eye,Unknown
+24159943,Pancreatitis,Recovered
+24159943,Crohn^s disease,Recovered
+24159944,Intestinal obstruction,Unknown
+24159944,Abdominal pain upper,Unknown
+24159944,Vomiting,Unknown
+24159944,Malaise,Unknown
+24159945,Rebound effect,Recovered
+24159945,Headache,Recovered
+24159946,Dysuria,Not recovered
+24159946,Nasopharyngitis,Not recovered
+24159946,Chills,Not recovered
+24159946,Vomiting,Not recovered
+24159947,Hunger,Unknown
+24159947,Insomnia,Unknown
+24159948,Death,Fatal
+24159949,Hunger,Unknown
+24159949,Insomnia,Unknown
+24181243,Femur fracture,Recovering
+24181244,Kidney infection,Unknown
+24181244,Cardiac arrest,Unknown
+24181244,Chest discomfort,Unknown
+24181244,Hordeolum,Unknown
+24181245,Parkinson^s disease,Recovered
+24181245,Enteral nutrition,Recovered
+24181245,Decreased appetite,Not recovered
+24181245,C-reactive protein increased,Recovered
+24181245,Unevaluable event,Not recovered
+24181245,General physical health deterioration,Recovered
+24181245,Hypokalaemia,Recovered
+24181245,Middle insomnia,Unknown
+24181245,Hypophagia,Recovered
+24181245,Hypophosphataemia,Recovered
+24181245,Dyskinesia,Recovered
+24181245,Hallucination,Recovering
+24181245,Abnormal dreams,Recovering
+24181245,Stoma site reaction,Not recovered
+24181245,Bowel movement irregularity,Not recovered
+24181245,Back pain,Not recovered
+24181245,Muscle rigidity,Not recovered
+24181245,Anxiety,Not recovered
+24181245,Weight decreased,Recovered
+24181245,Memory impairment,Recovering
+24181245,Disturbance in attention,Recovering
+24181246,Pericardial effusion,Recovering
+24181246,Respiratory disorder,Recovering
+24181247,Vasculitis,Recovering
+24181248,Cytokine release syndrome,Unknown
+24181248,Bone lesion,Unknown
+24181248,Bone pain,Not recovered
+24181248,Gait disturbance,Unknown
+24181249,External ear neoplasm malignant,Unknown
+24181250,Fatigue,Unknown
+24181250,Speech disorder,Unknown
+24181250,Feeling abnormal,Unknown
+24181251,Hospitalisation,Unknown
+24181251,Off label use,Unknown
+24181252,Product use issue,Unknown
+24202355,Adverse event,Unknown
+24202355,Device delivery system issue,Unknown
+24202355,Device mechanical issue,Unknown
+24202356,Drug effective for unapproved indication,Unknown
+24202356,Product use in unapproved indication,Unknown
+24202357,Appendicectomy,Recovering
+24202357,Intestinal obstruction,Recovering
+24202357,Constipation,Recovered
+24202357,Crohn^s disease,Recovered
+24202357,Nausea,Unknown
+24202357,Injection site swelling,Recovered
+24202357,Cough,Unknown
+24202357,Abdominal discomfort,Unknown
+24202357,Flatulence,Not recovered
+24202357,Gastrointestinal sounds abnormal,Not recovered
+24202357,Stress,Unknown
+24202357,Abdominal distension,Not recovered
+24202358,Seizure,Unknown
+24202358,Memory impairment,Unknown
+24202358,Off label use,Unknown
+24202358,Product after taste,Unknown
+24202358,Device issue,Unknown
+24202358,Device delivery system issue,Unknown
+24202358,Wrong technique in product usage process,Unknown
+24202358,Headache,Unknown
+24202359,Thrombosis,Unknown
+24202359,Surgery,Unknown
+24202359,Product use issue,Unknown
+24202359,Dyspnoea exertional,Unknown
+24202360,Device deployment issue,Unknown
+24202361,Product dose omission issue,Not recovered
+24202361,Product storage error,Not recovered
+24202362,Inappropriate schedule of product administration,Unknown
+24202363,Injection site pain,Unknown
+24202363,Device mechanical issue,Unknown
+24202364,Lymphoma,Unknown
+24220861,Cardiac operation,Unknown
+24220862,Disease progression,Unknown
+24220863,Rash,Unknown
+24220864,Diffuse large b-cell lymphoma,Unknown
+24220864,Cytokine release syndrome,Recovered
+24220864,Vessel puncture site erythema,Unknown
+24220866,Cholelithiasis,Recovering
+24220867,Neoplasm malignant,Recovering
+24220867,Skin exfoliation,Unknown
+24220867,Erythema,Not recovered
+24220867,Diabetes mellitus,Unknown
+24220868,Loss of consciousness,Unknown
+24220869,Haematochezia,Unknown
+24220869,Therapeutic response decreased,Unknown
+24220870,Neutropenia,Unknown
+24220870,Dyspepsia,Unknown
+24220870,Pyrexia,Unknown
+24220870,Fatigue,Unknown
+24220870,Transfusion,Unknown
+24220870,Platelet count abnormal,Recovering
+24220870,Stomatitis,Unknown
+24220870,White blood cell count decreased,Unknown
+24220870,Haemoglobin decreased,Unknown
+24220870,Asthenia,Recovering
+24220870,Diarrhoea,Unknown
+24220870,Brain fog,Unknown
+24220871,Cough,Not recovered
+24246223,Cytokine release syndrome,Recovered
+24246223,Immune effector cell-associated neurotoxicity syndrome,Recovered
+24246223,Hypertension,Recovered
+24246224,Drug ineffective,Unknown
+24246225,Cytokine release syndrome,Recovered
+24246226,Flushing,Unknown
+24246226,Pyrexia,Unknown
+24246226,Dyspnoea,Unknown
+24246227,Fatigue,Unknown
+24246228,Pericarditis,Recovering
+24246228,Interstitial lung disease,Recovering
+24246228,Off label use,Unknown
+24246229,Pericardial effusion,Recovering
+24246229,Weight decreased,Unknown
+24246229,Dyspnoea,Unknown
+24246229,Fatigue,Unknown
+24246230,Wrong technique in device usage process,Unknown
+24246231,Electrocardiogram qt prolonged,Recovered
+24246231,Skin discolouration,Recovering
+24246232,Nightmare,Recovered
+24246232,Night sweats,Recovered
+24271212,Fungal infection,Not recovered
+24271213,Neutropenia,Not recovered
+24271213,Off label use,Unknown
+24271214,Oral pain,Unknown
+24271214,Product dose omission issue,Unknown
+24271215,Gastrointestinal haemorrhage,Fatal
+24271215,Pulmonary arterial hypertension,Unknown
+24271215,Hepatic cirrhosis,Unknown
+24271215,Central venous pressure increased,Unknown
+24271216,Plasma cell myeloma,Not recovered
+24271217,Adverse event,Unknown
+24271218,Pneumonia,Not recovered
+24271218,Swelling face,Not recovered
+24271218,Stomatitis,Not recovered
+24271219,Product dose omission issue,Unknown
+24271221,Condition aggravated,Unknown
+24271221,Therapeutic response decreased,Unknown
+24271222,Rash,Recovered
+24294780,Injection site pain,Unknown
+24294781,Accidental underdose,Unknown
+24294784,Injection site pain,Unknown
+24294784,Injection site erythema,Unknown
+24294784,Influenza like illness,Unknown
+24294784,Injection site swelling,Unknown
+24294784,Injection site bruising,Unknown
+24294786,Accidental exposure to product,Unknown
+24294786,Occupational exposure to product,Unknown
+24294788,Haemorrhage,Unknown
+24294788,Dyspnoea,Unknown
+24294790,Blood glucose increased,Recovering
+24294795,Product storage error,Unknown
+24294795,Intercepted product administration error,Unknown
+24294796,Respiratory disorder,Unknown
+24294796,White blood cell count increased,Unknown
+24294798,Panniculitis,Unknown
+24294798,Metastases to central nervous system,Unknown
+24294798,Bone marrow failure,Not recovered
+24294798,Pericarditis,Unknown
+24294798,Pneumonia,Recovered
+24294798,Adverse reaction,Unknown
+24294798,Pericardial disease,Unknown
+24294799,Product storage error,Unknown
+24294799,Intercepted product administration error,Unknown
+24314341,Diabetes mellitus,Not recovered
+24314341,Tachycardia,Not recovered
+24314341,Urinary tract infection,Not recovered
+24314342,Dermatitis exfoliative generalised,Unknown
+24314343,Cardiac disorder,Not recovered
+24314343,Asthma,Not recovered
+24314343,Quality of life decreased,Not recovered
+24314343,Drug ineffective,Unknown
+24314344,Abdominal distension,Fatal
+24314344,Haemorrhage,Fatal
+24314344,Renal disorder,Fatal
+24314345,Blood cholesterol increased,Unknown
+24314345,Fatigue,Unknown
+24314346,Atrial fibrillation,Unknown
+24314346,Supraventricular tachycardia,Unknown
+24314346,Rash,Recovered
+24314346,Flatulence,Unknown
+24314346,Inflammation,Unknown
+24314346,Polyp,Unknown
+24314346,Heart rate increased,Unknown
+24314347,Small intestinal obstruction,Not recovered
+24314347,Enteritis,Unknown
+24314348,Dizziness,Not recovered
+24314348,Nausea,Not recovered
+24314348,Feeling hot,Not recovered
+24314348,Sedation,Recovered
+24314348,Dissociation,Recovered
+24314349,Malaise,Recovered with sequelae
+24314349,Decreased appetite,Recovering
+24314350,Gastroenteritis viral,Unknown
+24335416,Pneumonia,Recovered
+24335417,Death,Fatal
+24335418,Autoimmune myositis,Recovering
+24335419,Palpitations,Not recovered
+24335419,Wrong technique in product usage process,Unknown
+24335419,Product use in unapproved indication,Unknown
+24335420,Head discomfort,Not recovered
+24335420,Agitation,Not recovered
+24335420,Dizziness,Not recovered
+24335420,Anxiety,Not recovered
+24335420,Drug ineffective,Not recovered
+24335421,Dermatitis atopic,Unknown
+24335421,Scratch,Unknown
+24335421,Skin weeping,Unknown
+24335421,Skin haemorrhage,Unknown
+24335421,Pruritus,Unknown
+24335421,Dry skin,Unknown
+24335422,Hypereosinophilic syndrome,Unknown
+24335422,Multi-organ disorder,Unknown
+24335422,Eosinophil count increased,Unknown
+24335422,Condition aggravated,Unknown
+24335422,Therapeutic product effect decreased,Unknown
+24335423,General physical health deterioration,Unknown
+24335424,Treatment noncompliance,Unknown
+24335425,Surgery,Unknown
+24359900,Diverticular perforation,Recovered
+24359900,Peritonitis,Recovered
+24359900,Gastrointestinal perforation,Recovering
+24359900,Diverticulitis,Recovered
+24359900,Constipation,Unknown
+24359900,Mucosal inflammation,Unknown
+24359900,Infrequent bowel movements,Unknown
+24359900,Pyrexia,Recovered
+24359900,Abdominal distension,Recovered
+24359900,Abdominal discomfort,Recovered
+24359900,Abdominal pain,Recovered
+24359901,Off label use,Unknown
+24359901,Drug effective for unapproved indication,Unknown
+24359902,Urticaria,Recovered
+24359903,Covid-19,Recovered
+24359904,Paraneoplastic myelopathy,Recovered
+24359904,Anaemia,Unknown
+24359905,Pneumonia,Unknown
+24359906,Cardiac disorder,Unknown
+24359907,Drug effect less than expected,Unknown
+24359908,Covid-19,Recovered
+24359908,Off label use,Unknown
+24359909,Prescription drug used without a prescription,Unknown
+24381169,Death,Fatal
+24381170,Device difficult to use,Unknown
+24381171,Neuralgia,Recovering
+24381172,Intraductal papillary mucinous neoplasm,Recovered
+24381172,Abdominal discomfort,Recovered
+24381172,Post procedural complication,Unknown
+24381172,Hernia,Recovered
+24381172,Post procedural haemorrhage,Recovered
+24381172,Abdominal pain upper,Recovered
+24381173,Covid-19,Recovered
+24381174,Feeding intolerance,Recovered
+24381174,Pyrexia,Recovered
+24381174,Febrile convulsion,Recovered
+24381174,Vomiting,Recovered
+24381174,Urinary tract infection,Recovered
+24381175,Intentional overdose,Unknown
+24381175,Suicide attempt,Unknown
+24381175,Hypokalaemia,Unknown
+24381175,Metabolic alkalosis,Unknown
+24381175,Analgesic drug level increased,Unknown
+24381175,Ileal ulcer,Unknown
+24381175,Gastric ulcer,Unknown
+24381175,Headache,Unknown
+24381176,Osteoarthritis,Recovered
+24381176,Rash,Recovered
+24381177,Pneumocystis jirovecii pneumonia,Fatal
+24381177,Petechiae,Unknown
+24381177,Purpura,Unknown
+24381177,Therapeutic response decreased,Unknown
+24381178,Nephrolithiasis,Unknown
+24381178,Renal colic,Unknown
+24401170,Cholecystectomy,Recovered
+24401170,Blood cholesterol increased,Not recovered
+24401170,Incorrect dose administered,Recovered
+24401170,Skin disorder,Not recovered
+24401170,Pustule,Recovered
+24401170,Blood triglycerides increased,Not recovered
+24401171,Off label use,Unknown
+24401172,Product use in unapproved indication,Unknown
+24401172,Injury associated with device,Unknown
+24401172,Accidental exposure to product,Unknown
+24401172,Exposure via skin contact,Unknown
+24401173,Injection site pain,Unknown
+24401174,Product use in unapproved indication,Unknown
+24401174,Rash erythematous,Unknown
+24401174,Pruritus,Unknown
+24401174,Skin burning sensation,Unknown
+24401174,Condition aggravated,Unknown
+24401175,Hypoaesthesia,Unknown
+24401175,Paraesthesia,Unknown
+24401175,Weight increased,Unknown
+24401175,Eczema,Recovering
+24401175,Pruritus,Recovering
+24401175,Dry skin,Recovering
+24401175,Pain in extremity,Unknown
+24401175,Myalgia,Recovered
+24401175,Dermatitis atopic,Not recovered
+24401175,Injection site pain,Unknown
+24401175,Product dose omission in error,Unknown
+24401176,Off label use,Unknown
+24401177,Injection site swelling,Not recovered
+24401177,Ankle operation,Unknown
+24401178,Dry eye,Unknown
+24401178,Eczema,Recovering
+24401179,Orthostatic hypotension,Not recovered
+24401179,Autonomic nervous system imbalance,Unknown
+24430060,Eczema,Not recovered
+24430060,Pruritus,Not recovered
+24430061,Dry skin,Recovered
+24430061,Lacrimation increased,Recovered
+24430061,Pruritus,Recovered
+24430062,Diarrhoea,Not recovered
+24430063,Multiple fractures,Unknown
+24430063,Osteoporosis,Unknown
+24430064,Autoimmune thyroiditis,Unknown
+24430064,Dry mouth,Not recovered
+24430064,Condition aggravated,Not recovered
+24430064,Dyspnoea,Not recovered
+24430064,Upper-airway cough syndrome,Not recovered
+24430064,Hypoaesthesia,Unknown
+24430064,Bursitis,Unknown
+24430064,Asthma,Unknown
+24430064,Ligament pain,Unknown
+24430064,Arthralgia,Unknown
+24430065,Product use in unapproved indication,Unknown
+24430066,Off label use,Unknown
+24430067,Injection site bruising,Recovered
+24430067,Product dose omission in error,Unknown
+24430068,Skin burning sensation,Unknown
+24430068,Pruritus,Unknown
+24430068,Injection site pain,Unknown
+24430069,Dry skin,Unknown
+24430069,Pruritus,Unknown
+24430069,Skin exfoliation,Unknown
+24430069,Injection site pain,Unknown
+24524453,Death,Fatal
+24524454,Asthma,Not recovered
+24524455,Vitritis infective,Unknown
+24524455,Off label use,Unknown
+24524455,Blindness,Unknown
+24524456,Ankylosing spondylitis,Not recovered
+24524456,Fatigue,Not recovered
+24524457,Neutropenia,Not recovered
+24524457,Off label use,Unknown
+24524458,Dermatitis atopic,Unknown
+24524459,Myelofibrosis,Unknown
+24524461,Macular thickening,Unknown
+24524462,Death,Fatal
+24524462,Off label use,Recovered
+24524463,Vertigo,Unknown
+24524463,Lip exfoliation,Unknown
+24524463,Tremor,Unknown
+24524463,Pain,Unknown
+24524463,Peripheral venous disease,Unknown
+24524463,Hypotension,Unknown
+24524463,Dry skin,Unknown
+24524463,Device difficult to use,Unknown
+24524463,Product communication issue,Unknown
+24524463,Hyperhidrosis,Unknown
+24524463,Drug dose omission by device,Unknown
+24546939,Gastrointestinal carcinoma,Unknown
+24546939,Rectal cancer,Unknown
+24546940,Nervous system disorder,Fatal
+24546941,Rebound effect,Unknown
+24546941,Product use in unapproved indication,Unknown
+24546941,Off label use,Unknown
+24546941,Immunoglobulin g4 related disease,Unknown
+24546941,Drug ineffective for unapproved indication,Unknown
+24546942,Knee operation,Unknown
+24546942,Depression,Unknown
+24546942,Product use in unapproved indication,Unknown
+24546943,Hospitalisation,Unknown
+24546943,Product dose omission issue,Unknown
+24546944,Sepsis,Unknown
+24546944,Weight decreased,Unknown
+24546944,Off label use,Unknown
+24546945,Bone cancer,Unknown
+24546946,Haematuria,Not recovered
+24546947,Acute cholecystitis necrotic,Recovered with sequelae
+24546948,Diabetic ketoacidosis,Recovering
+24546948,Pancreatitis acute,Recovering
+24570731,Procedural pain,Recovered
+24570731,Post procedural fever,Recovered
+24570731,Muscle spasms,Unknown
+24570731,Pain,Unknown
+24570731,Large intestinal stenosis,Unknown
+24570732,Swelling face,Recovering
+24570733,Infection,Recovered
+24570734,Toxicity to various agents,Recovering
+24570734,Hypercalcaemia,Recovering
+24570734,Nephrogenic diabetes insipidus,Recovering
+24570735,Injection site warmth,Unknown
+24570736,Incorrect dose administered,Unknown
+24570737,Head injury,Recovering
+24570737,Laboratory test abnormal,Unknown
+24570737,Nausea,Recovered
+24570737,Fall,Recovering
+24570738,Off label use,Unknown
+24570738,Wrong technique in product usage process,Unknown
+24570739,Pneumonia,Fatal
+24570739,Plasma cell myeloma,Unknown
+24570739,Myeloma cast nephropathy,Unknown
+24570740,Seizure,Unknown
+24570740,Drug ineffective,Unknown
+24570740,Treatment failure,Unknown
+24586565,Unresponsive to stimuli,Unknown
+24586565,Injection site oedema,Unknown
+24586565,Injection site pain,Unknown
+24586565,Injection site discomfort,Unknown
+24586565,Crying,Unknown
+24586565,Pain,Unknown
+24586565,Nasopharyngitis,Unknown
+24586565,Rhinorrhoea,Unknown
+24586565,Injection site pruritus,Recovered
+24586565,Urticaria,Unknown
+24586565,Injection site erythema,Recovered
+24586565,Injection site swelling,Unknown
+24586565,Fatigue,Unknown
+24586565,Incorrect dose administered,Unknown
+24586565,Device breakage,Unknown
+24586566,Migraine,Unknown
+24586567,Upper limb fracture,Not recovered
+24586567,Fall,Unknown
+24586567,Peripheral swelling,Not recovered
+24586567,Product dose omission issue,Not recovered
+24586568,Cardio-respiratory arrest,Recovered
+24586568,Bradycardia,Recovered
+24586568,Coma,Recovered
+24586568,Mydriasis,Recovered
+24586568,Intentional product misuse,Recovered
+24586569,Heavy menstrual bleeding,Not recovered
+24586569,Nausea,Not recovered
+24586569,Anxiety,Not recovered
+24586569,Illness,Not recovered
+24586569,Incorrect product administration duration,Unknown
+24586569,Product prescribing issue,Unknown
+24586570,Death,Fatal
+24586571,Inappropriate schedule of product administration,Unknown
+24586571,Device deployment issue,Unknown
+24586571,Accidental exposure to product,Unknown
+24586571,Asthenia,Unknown
+24586572,Liver disorder,Unknown
+24586573,Dyspnoea,Unknown
+24586573,Product dose omission issue,Unknown
+24586574,General physical health deterioration,Unknown
+24611019,Breath holding,Recovering
+24611020,Drug ineffective,Unknown
+24611021,Headache,Unknown
+24611022,Infection,Unknown
+24611022,Conjunctivitis,Unknown
+24611022,Dermatitis atopic,Unknown
+24611023,Chest discomfort,Recovered
+24611023,Abdominal distension,Recovered
+24611025,Death,Fatal
+24611026,Dementia,Unknown
+24611027,Angioedema,Unknown
+24611028,Atypical pneumonia,Unknown
+24611028,Pneumonia,Unknown
+24611029,Back pain,Not recovered
+24611029,Back injury,Unknown
+24634007,Hallucination,Not recovered
+24634008,Condition aggravated,Not recovered
+24634008,Off label use,Not recovered
+24634009,Capillary leak syndrome,Recovered
+24634009,Acute kidney injury,Recovered
+24634009,Intentional product use issue,Unknown
+24634010,Dermatitis atopic,Unknown
+24634010,Rash erythematous,Unknown
+24634010,Pruritus,Unknown
+24634010,Skin burning sensation,Unknown
+24634010,Condition aggravated,Unknown
+24634011,Palpitations,Recovered
+24634011,Headache,Recovered
+24634011,Dizziness,Recovered
+24634012,Product storage error,Unknown
+24634013,Injection site mass,Recovered
+24634013,Injection site pain,Recovered
+24634013,Hypoaesthesia,Unknown
+24634014,Unevaluable event,Unknown
+24634014,Drug ineffective,Unknown
+24634015,Myocarditis,Fatal
+24634016,Adverse event,Unknown
+24634016,Renal injury,Unknown
+24634016,Cardiac disorder,Unknown
+24634016,Slow response to stimuli,Unknown
+24656718,Ostomy bag placement,Unknown
+24656718,Nasopharyngitis,Unknown
+24656718,Frequent bowel movements,Unknown
+24656718,Arthralgia,Not recovered
+24656718,Pain,Unknown
+24656718,Fatigue,Unknown
+24656718,Asthenia,Unknown
+24656718,Haematochezia,Not recovered
+24656718,Defaecation urgency,Unknown
+24656718,Stoma site reaction,Unknown
+24656718,Peripheral swelling,Unknown
+24656718,Pain in extremity,Not recovered
+24656718,Stoma site inflammation,Unknown
+24656718,Pouchitis,Unknown
+24656718,Flatulence,Unknown
+24656718,Insomnia,Unknown
+24656718,Diarrhoea,Unknown
+24656718,Abdominal discomfort,Not recovered
+24656718,Anorectal ulcer,Unknown
+24656719,Toxicity to various agents,Unknown
+24656720,Pneumonia,Unknown
+24656720,Device occlusion,Not recovered
+24656720,Respiratory failure,Unknown
+24656720,Device breakage,Unknown
+24656720,Device issue,Unknown
+24656720,Device dislocation,Unknown
+24656721,Cerebrovascular accident,Unknown
+24656721,Blindness,Unknown
+24656721,Mental impairment,Unknown
+24656722,Haematoma,Unknown
+24656722,Medical device implantation,Not recovered
+24656722,Pain,Not recovered
+24656722,Back pain,Recovering
+24656722,Nerve compression,Unknown
+24656722,Fall,Unknown
+24656722,Skin laceration,Unknown
+24656722,Cataract,Unknown
+24656723,Arthritis,Recovering
+24656724,Deep vein thrombosis,Recovered
+24656725,Death,Fatal
+24656726,Injection site pain,Not recovered
+24656727,Diarrhoea,Recovered
+24656727,Product distribution issue,Unknown
+24656727,Therapy interrupted,Unknown
+24682710,Injection site discomfort,Unknown
+24682710,Injection site bruising,Unknown
+24682710,Injection site pain,Unknown
+24682711,Musculoskeletal stiffness,Unknown
+24682711,Myalgia,Unknown
+24682711,Neurodermatitis,Unknown
+24682712,Dermatitis atopic,Unknown
+24682712,Dry skin,Unknown
+24682712,Pruritus,Unknown
+24682712,Skin exfoliation,Unknown
+24682712,Therapeutic response decreased,Unknown
+24682712,Product dose omission issue,Unknown
+24682713,Injection site pain,Recovered
+24682713,Injection site bruising,Recovered
+24682713,Product storage error,Unknown
+24682714,Wrong technique in product usage process,Unknown
+24682714,No adverse event,Unknown
+24682715,Inappropriate schedule of product administration,Unknown
+24682715,Dermatitis atopic,Unknown
+24682716,Injection site haemorrhage,Unknown
+24682716,Device difficult to use,Unknown
+24682716,Incorrect dose administered by device,Unknown
+24682717,Injection site bruising,Unknown
+24682717,Device difficult to use,Unknown
+24682717,Incorrect dose administered by device,Unknown
+24682717,Device use error,Unknown
+24682718,Dyspnoea,Unknown
+24682718,Wrong technique in product usage process,Unknown
+24682718,Device deposit issue,Unknown
+24682718,Drug dose omission by device,Unknown
+24682719,Injection site pain,Recovered
+24708146,Menstruation delayed,Not recovered
+24708147,Syncope,Unknown
+24708147,Chronic obstructive pulmonary disease,Unknown
+24708147,Pulmonary fibrosis,Unknown
+24708147,Dyspnoea,Unknown
+24708147,Pyrexia,Unknown
+24708149,Oesophageal candidiasis,Unknown
+24708149,Cytomegalovirus infection,Recovered
+24708149,Herpes simplex,Recovered
+24708150,Musculoskeletal stiffness,Not recovered
+24708150,Medication error,Unknown
+24708152,Polyneuropathy,Recovered
+24708152,Neuralgia,Recovering
+24708152,Withdrawal syndrome,Not recovered
+24708152,Erythema,Recovered
+24708152,Dermatitis,Recovering
+24708152,Abnormal loss of weight,Recovering
+24708152,Temperature intolerance,Recovering
+24708152,Prostatomegaly,Unknown
+24708152,Restlessness,Recovering
+24708152,Pain in extremity,Recovering
+24708152,Fluid imbalance,Recovering
+24708152,Pollakiuria,Unknown
+24708152,Surgery,Unknown
+24708153,Neuropathy peripheral,Not recovered
+24708153,Nausea,Not recovered
+24708154,Palpitations,Not recovered
+24708154,Chills,Not recovered
+24708155,Immune-mediated adrenal insufficiency,Unknown
+24708155,Neutropenia,Unknown
+24708155,Decreased appetite,Unknown
+24708155,Hepatic function abnormal,Unknown
+24708155,Product use issue,Unknown
+24708156,Anaemia,Not recovered
+24708156,Eye pruritus,Not recovered
+24708157,Death,Fatal
+24728968,Plasma cell myeloma recurrent,Unknown
+24728969,Drug effect less than expected,Unknown
+24728969,Product use in unapproved indication,Unknown
+24728970,Feeling abnormal,Recovering
+24728970,Hypoaesthesia,Recovering
+24728970,Chills,Recovering
+24728970,Asthenia,Recovering
+24728971,Seizure,Recovered
+24728972,Drug dose omission by device,Unknown
+24728972,Device delivery system issue,Unknown
+24728972,Poor quality sleep,Unknown
+24728973,Device use issue,Unknown
+24728973,Dyspnoea,Unknown
+24728973,Wrong technique in device usage process,Unknown
+24728973,Wound treatment,Unknown
+24728973,Incorrect dose administered,Unknown
+24728973,Product dose omission issue,Unknown
+24728973,Device delivery system issue,Unknown
+24728974,Abdominal pain,Unknown
+24728974,Vomiting,Unknown
+24728974,Incorrect dose administered,Unknown
+24728975,Metastatic neoplasm,Unknown
+24728975,Drug ineffective,Unknown
+24728976,Cataract,Unknown
+24728976,Astigmatism,Unknown
+24728976,Device difficult to use,Unknown
+24728976,Product storage error,Unknown
+24728976,Circumstance or information capable of leading to medication error,Unknown
+24728977,Hospitalisation,Unknown
+24728977,Emergency care,Unknown
+24750810,Hypoxia,Recovered
+24750810,Vasoconstriction,Recovered
+24750810,Drug level increased,Recovered
+24750810,Off label use,Unknown
+24750811,Procedural pain,Unknown
+24750812,Depressed level of consciousness,Unknown
+24750812,Pallor,Unknown
+24750812,Eye disorder,Unknown
+24750812,Dizziness,Unknown
+24750812,Injection site oedema,Unknown
+24750813,Nausea,Unknown
+24750813,Somnolence,Unknown
+24750813,Dizziness,Unknown
+24750814,Loss of consciousness,Recovered
+24750814,Amnesia,Unknown
+24750814,Dizziness,Unknown
+24750814,Somnolence,Unknown
+24750815,Epilepsy,Not recovered
+24750816,Migraine,Unknown
+24750816,Brain fog,Unknown
+24750816,Fatigue,Unknown
+24750816,Dizziness,Unknown
+24750817,Brain fog,Unknown
+24750818,Injection site swelling,Unknown
+24750819,Arthralgia,Not recovered
+24772576,Death,Fatal
+24772576,Hospice care,Not recovered
+24772577,Ophthalmic migraine,Not recovered
+24772577,Impaired driving ability,Not recovered
+24772577,Pain,Not recovered
+24772577,Headache,Unknown
+24772577,Pain in jaw,Unknown
+24772577,Loss of personal independence in daily activities,Not recovered
+24772578,No adverse event,Unknown
+24772578,Product container issue,Unknown
+24772578,Product storage error,Unknown
+24772579,Drug effect less than expected,Unknown
+24772580,Product complaint,Unknown
+24772580,Device mechanical issue,Unknown
+24772580,Device issue,Unknown
+24772580,Product dose omission issue,Unknown
+24772580,No adverse event,Unknown
+24772581,Pruritus,Unknown
+24772581,Arthralgia,Unknown
+24772581,Rash,Unknown
+24772581,Product use in unapproved indication,Unknown
+24772581,Therapeutic response shortened,Unknown
+24772582,Illness,Unknown
+24772582,Product dose omission issue,Unknown
+24772583,Therapy interrupted,Unknown
+24772583,Device occlusion,Unknown
+24772583,Device mechanical issue,Unknown
+24772584,Product dose omission issue,Unknown
+24772584,Off label use,Unknown
+24772584,Inappropriate schedule of product administration,Unknown
+24772585,Injection site bruising,Unknown

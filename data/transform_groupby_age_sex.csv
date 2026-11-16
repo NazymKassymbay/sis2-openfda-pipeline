@@ -1,0 +1,18 @@
+age_group,patient_sex,reports,serious_rate,deaths,mean_drugs,median_age
+Adolescent (12-17),Female,9,0.667,0,3.111,14.0
+Adolescent (12-17),Male,6,0.667,0,2.0,15.0
+Adult (18-44),Female,35,0.4,0,2.0,38.0
+Adult (18-44),Male,29,0.586,4,3.345,36.0
+Adult (18-44),Unknown,1,0.0,0,1.0,27.0
+Child (2-11),Female,4,0.5,0,2.25,7.5
+Child (2-11),Male,10,0.5,0,3.4,6.5
+Elderly (65+),Female,78,0.59,6,3.192,74.695
+Elderly (65+),Male,59,0.814,16,3.763,76.0
+Elderly (65+),Unknown,5,0.6,0,2.2,76.0
+Infant (<2),Male,1,0.0,0,1.0,0.08
+Middle-aged (45-64),Female,64,0.641,5,3.141,56.0
+Middle-aged (45-64),Male,42,0.571,2,3.595,57.0
+Middle-aged (45-64),Unknown,4,0.25,0,2.0,54.5
+Unknown,Female,102,0.578,7,2.059,
+Unknown,Male,69,0.696,9,2.13,
+Unknown,Unknown,82,0.415,4,2.39,

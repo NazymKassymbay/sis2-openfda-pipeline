@@ -1,0 +1,11 @@
+row_index,column,check,failure_case
+602,<cross-field>,non_serious_report_has_seriousness_flag,
+603,<cross-field>,age_above_120_years,
+601,patient_age,age_negative,-5
+600,serious,"isin(['1', '2'])",3
+600,patient_sex,"isin(['0', '1', '2'])",7
+602,receive_date,date_out_of_range_or_invalid,20241345
+603,patient_weight_kg,weight_not_numeric,abc
+601,patient_weight_kg,weight_out_of_range_0_400kg,0
+601,num_reactions,no_reactions,0
+603,safety_report_id,not_nullable,

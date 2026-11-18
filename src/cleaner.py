@@ -1,11 +1,3 @@
-"""Stage 4 - Data cleaning and transformation with pandas and NumPy.
-
-Input : validated records (output of the Pandera stage)
-Output: data/clean_data.csv       - one row per adverse-event report
-        data/clean_reactions.csv  - one row per (report, reaction)
-        data/transform_*.csv      - filtering, GroupBy and reshaping results
-"""
-
 import re
 
 import numpy as np

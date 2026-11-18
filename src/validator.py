@@ -1,15 +1,3 @@
-"""Stage 3 - Data validation with Pandera.
-
-The records received from Kafka are validated *before* cleaning.
-Strategy for invalid data: QUARANTINE - every row that breaks at least one
-rule is written to data/invalid_records.csv together with its error messages
-and is excluded from the following stages. Valid rows continue.
-
-Deliberately invalid test records (is_test_record = True) are appended to
-prove that each rule really detects errors. They are always excluded from the
-final processed dataset.
-"""
-
 import json
 from datetime import date
 

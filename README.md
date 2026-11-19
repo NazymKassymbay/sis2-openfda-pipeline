@@ -3,6 +3,7 @@
 - **Course:** Data Collection & Preparation, SIS 2
 - **Data source:** openFDA Drug Adverse Event API (`https://api.fda.gov/drug/event.json`)
 - **Team:** Sailaukhan Yenglik · Kassymbay Nazym · Beisenova Dilnaz · Al-Farabiқyzy Asylai
+- **Lecture time:** Wednesday 16:00-18:00
 - **Repository:** https://github.com/NazymKassymbay/sis2-openfda-pipeline
 - 
 ## 1. Project overview
